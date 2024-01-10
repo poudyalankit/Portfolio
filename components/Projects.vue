@@ -70,11 +70,11 @@
 }
 
 .venetia-image {
-  background-image: url("venetia.png");
+  background-image: url("../assets/images/venetia.png");
 }
 
 .unitalk-image{
-  background-image: url("unitalk.png");
+  background-image: url("../assets/images/unitalk.png");
 }
 
 @media (max-width: 1280px) {

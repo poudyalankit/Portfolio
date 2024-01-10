@@ -72,7 +72,7 @@
 }
 
 .contact-option::after {
-  content: ''; /* No text content, we'll use a background image */
+  content: '';
   position: absolute;
   top: 50%;
   right: 15px; /* Move closer to the right edge */
@@ -121,7 +121,7 @@
 
 @media (hover: hover) {
   .contact-option:hover::after {
-    opacity: 1; /* Fade in the arrow on hover */
+    opacity: 1;
   }
 }
 
@@ -140,7 +140,6 @@
   color: #BBBDC3
 }
 
-/* Responsive adjustments might be required */
 @media (max-width: 768px) {
   .contact-options {
     grid-template-columns: 1fr;

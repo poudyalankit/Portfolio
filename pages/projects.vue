@@ -1,9 +1,8 @@
 <template>
   <div>
-    <IntroView/>
+    <ProjectView/>
   </div>
 </template>
-
 
 <style>
 .page-enter-active,
@@ -19,6 +18,6 @@
 
 <script>
 export default {
-  name: 'Index'
+  name: 'Projects'
 }
 </script>

@@ -5,7 +5,8 @@
     "heading": "UniTalk",
     "description": "Supporting 30+ languages and real-time chatting.",
     "image": "unitalk.png",
-    "url": "https://github.com/poudyalankit/UniTalk"
+    "url": "https://github.com/poudyalankit/UniTalk",
+    "tags": ["Angular", "TypeScript", "Firebase"]
   },
   {
     "id": 2,
@@ -13,6 +14,7 @@
     "heading": "Venetia",
     "description": "All-in-one software supporting 300+ online stores.",
     "image": "venetia.png",
-    "url": "https://github.com/poudyalankit/Venetia"
+    "url": "https://github.com/poudyalankit/Venetia",
+    "tags": ["Electron" ,"Node.js", "MongoDB", "Express"]
   }
 ]

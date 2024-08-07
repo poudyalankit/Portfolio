@@ -51,7 +51,11 @@
             <div class="text-container">
               <div class="project-subheading">{{ project.subheading }}</div>
               <div class="project-heading">{{ project.heading }}</div>
-              <div class="project-description">{{ project.description }}</div>
+              <div class="project-description">{{ project.description }}
+                <div class="tags-container">
+                  <div class="tag" v-for="tag in project.tags" :key="tag">{{ tag }}</div>
+                </div>
+              </div>
               <a :href="project.url" target="_blank">
               <div class="learn-more">Learn More ></div>
               </a>
@@ -97,7 +101,7 @@
   margin: 20px auto;
   padding: 30px;
   width: 90%;
-  max-width: 600px;
+  max-width: 620px;
   min-height: 250px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -179,6 +183,27 @@
   margin-top: auto;
 }
 
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 45px;
+  margin-bottom: -45px;
+}
+
+.tag {
+  width: 73px;
+  height: 25px;
+  background: #0276FF;
+  border-radius: 15px;
+  padding: 2px;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .project-box {
     transition: none !important;
@@ -194,6 +219,10 @@
   .project-subheading {
     font-size: 12px;
     line-height: 14px;
+  }
+
+  .tags-container {
+    display: none;
   }
 
   .project-heading {

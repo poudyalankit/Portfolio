@@ -8,7 +8,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'description', content: 'passionate about creating work people enjoy' },
-        { name: 'keywords', content: 'software engineer, computer science, doordash, alarm.com, university of virginia' },
+        { name: 'keywords', content: 'software engineer, computer science, doordash, alarm.com, university of virginia, ut austin' },
         { name: 'author', content: 'ankit poudyal' },
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: 'ankit poudyal' },
@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'ankit poudyal' },
         { name: 'twitter:description', content: 'passionate about creating work people enjoy' },
-        { name: 'twitter:image', content: 'https://ankitpoudyal.com/images/ankit.jpeg' },      
+        { name: 'twitter:image', content: 'https://ankitpoudyal.com/images/ankit.jpeg' },
         { name: 'robots', content: 'index, follow' },
         { name: 'theme-color', content: '#ffffff' }
       ],

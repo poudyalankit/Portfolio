@@ -12,7 +12,7 @@
             <p>passionate about creating work people enjoy</p>
           </div>
           <div class="social-links">
-            <a href="mailto:ankitpoudyal@virginia.edu" class="social-icon" title="Email">
+            <a href="mailto:ankitpoudyal@utexas.edu" class="social-icon" title="Email">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
               </svg>
@@ -62,11 +62,11 @@
       <h2>education</h2>
       <div class="education-item">
         <div class="education-logo">
-          <img src="/images/uva_logo.jpeg" alt="University of Virginia" class="education-logo-img" loading="lazy" />
+          <img src="/images/ut_logo.jpeg" alt="The University of Texas at Austin" class="education-logo-img" loading="lazy" />
         </div>
         <div class="education-content">
-          <h3>master's, computer science</h3>
-          <p class="institution">university of virginia • 2025 - 2026</p>
+          <h3>master of science, computer science</h3>
+          <p class="institution">the university of texas at austin • 2025 - 2026</p>
         </div>
       </div>
       <div class="education-item">
@@ -74,7 +74,7 @@
           <img src="/images/uva_logo.jpeg" alt="University of Virginia" class="education-logo-img" loading="lazy" />
         </div>
         <div class="education-content">
-          <h3>bachelor's, computer science</h3>
+          <h3>bachelor of science, computer science</h3>
           <p class="institution">university of virginia • 2022 - 2025</p>
         </div>
       </div>
@@ -326,3 +326,5 @@ h2 {
   }
 }
 </style>
+<script setup lang="ts">
+</script>

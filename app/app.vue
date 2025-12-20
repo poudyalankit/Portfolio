@@ -9,7 +9,7 @@
           </div>
           <h1 class="name">ankit poudyal</h1>
           <div class="bio-section">
-            <p>passionate about creating work people enjoy</p>
+            <p>creating work people enjoy</p>
           </div>
           <div class="social-links">
             <a href="mailto:ankitpoudyal@utexas.edu" class="social-icon" title="Email">

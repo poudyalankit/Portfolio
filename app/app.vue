@@ -40,9 +40,17 @@
           <img src="/images/doordash_logo.jpg" alt="DoorDash" class="company-logo-img" loading="lazy" />
         </div>
         <div class="experience-content">
+          <h3>software engineer</h3>
+          <p class="company">doordash • jan 2026 - present</p>
+        </div>
+      </div>
+      <div class="experience-item">
+        <div class="company-logo">
+          <img src="/images/doordash_logo.jpg" alt="DoorDash" class="company-logo-img" loading="lazy" />
+        </div>
+        <div class="experience-content">
           <h3>software engineer intern</h3>
           <p class="company">doordash • may 2025 - aug 2025</p>
-          <p>developed natural language grocery list search</p>
         </div>
       </div>
       <div class="experience-item">
@@ -52,7 +60,6 @@
         <div class="experience-content">
           <h3>software engineer intern</h3>
           <p class="company">alarm.com • jun 2024 - aug 2024</p>
-          <p>integrated RAG into internal chatbot</p>
         </div>
       </div>
     </div>
@@ -66,7 +73,7 @@
         </div>
         <div class="education-content">
           <h3>master of science, computer science</h3>
-          <p class="institution">the university of texas at austin • 2025 - 2026</p>
+          <p class="institution">the university of texas at austin • jan 2026 - dec 2026</p>
         </div>
       </div>
       <div class="education-item">
@@ -75,7 +82,7 @@
         </div>
         <div class="education-content">
           <h3>bachelor of science, computer science</h3>
-          <p class="institution">university of virginia • 2022 - 2025</p>
+          <p class="institution">university of virginia • aug 2022 - may 2025</p>
         </div>
       </div>
     </div>
